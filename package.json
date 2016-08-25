@@ -1,0 +1,29 @@
+{
+  "name": "metalsmith-simple-pagination",
+  "version": "0.1.0",
+  "description": "Simple pagination for Metalsmith",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronroe/metalsmith-simple-pagination.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronroe/metalsmith-simple-pagination/issues"
+  },
+  "homepage": "https://github.com/cameronroe/metalsmith-simple-pagination#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.11.6"
+  }
+}
